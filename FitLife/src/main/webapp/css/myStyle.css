@@ -1,0 +1,26 @@
+.home-content-wrapper{
+	background-image: url('/FitLife/images/back.jpg');
+	background-size: cover;
+	height: 100%;
+}
+
+
+.overlay-box{
+	padding: 200px 0px;
+	box-sizing: borber-box;
+	background: rgba(0, 0, 0, 0.5);
+	height: 100%;
+}
+
+.container{
+	width: 120px;
+	margin: 0px auto;
+}
+
+
+.welcome-text{
+	color:#FFF;
+	font-size: 75px;
+	font-family: raleway-bold;
+	line-height: 90px;
+}

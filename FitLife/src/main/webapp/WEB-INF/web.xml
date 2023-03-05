@@ -8,25 +8,25 @@
   	<servlet-name>Register</servlet-name>
   	<display-name>Register</display-name>
   	<description></description>
-  	<servlet-class>com.FitLife.Controller.Register</servlet-class>
+  	<servlet-class>com.FitnessFlow.Controller.Register</servlet-class>
   </servlet>
   <servlet>
   	<servlet-name>Login</servlet-name>
   	<display-name>Login</display-name>
   	<description></description>
-  	<servlet-class>com.FitLife.Controller.Login</servlet-class>
+  	<servlet-class>com.FitnessFlow.Controller.Login</servlet-class>
   </servlet>
   <servlet>
   	<servlet-name>WEB</servlet-name>
   	<display-name>WEB</display-name>
   	<description></description>
-  	<servlet-class>com.NoteTaker.Controller.WEB</servlet-class>
+  	<servlet-class>com.FitnessFlow.Controller.WEB</servlet-class>
   </servlet>
   <servlet>
   	<servlet-name>Logout</servlet-name>
   	<display-name>Logout</display-name>
   	<description></description>
-  	<servlet-class>com.NoteTaker.Controller.Logout</servlet-class>
+  	<servlet-class>com.FitnessFlow.Controller.Logout</servlet-class>
   </servlet>
   <servlet-mapping>
   	<servlet-name>Register</servlet-name>

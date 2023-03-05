@@ -1,4 +1,4 @@
-package com.FitLife.Controller;
+package com.FitnessFlow.Controller;
 
 import java.io.IOException; 
 import java.io.PrintWriter;
@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.FitLife.Bean.RegisterBean;
+import com.FitnessFlow.Bean.RegisterBean;
 
 /**
  * Servlet implementation class Register
@@ -32,7 +32,7 @@ public class Register extends HttpServlet {
 		Connection con = null;
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/notetaker","root","Nitinary@915");
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/fitnessflow","root","Nitinary@915");
 			PreparedStatement pst = con.prepareStatement("insert into users(uname,upwd,uemail,umobile) values(?,?,?,?)");
 			pst.setString(1, uname);
 			pst.setString(2, upwd);

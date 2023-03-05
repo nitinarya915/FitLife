@@ -9,7 +9,7 @@
 
 <!-- Font Icon -->
 <link rel="stylesheet"
-	href="http://localhost:8088/FitLife/css/material-design-iconic-font.min.css">
+	href="http://localhost:8088/FitnessFlow/css/material-design-iconic-font.min.css">
 
 <!-- Main css -->
 <link rel="stylesheet" href="css/style.css">
@@ -61,7 +61,7 @@
 					</div>
 					<div class="signup-image">
 						<figure>
-							<img src="/FitLife/images/gym logo.png" alt="sing up image">
+							<img src="/FitnessFlow/images/gym logo.png" alt="sing up image">
 						</figure>
 						<a href="Login.jsp" class="signup-image-link">I am already
 							member</a>

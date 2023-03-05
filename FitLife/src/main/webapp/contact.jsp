@@ -6,7 +6,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Contact</title>
-<link rel="stylesheet" href="http://localhost:8088/FitLife/css/contact.css">
+<link rel="stylesheet" href="http://localhost:8088/FitnessFlow/css/contact.css">
 <script src="sendemail.js" type="text/javascript"></script>
 <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">

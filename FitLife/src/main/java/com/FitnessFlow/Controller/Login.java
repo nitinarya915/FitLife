@@ -1,4 +1,4 @@
-package com.FitLife.Controller;
+package com.FitnessFlow.Controller;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import com.FitLife.Bean.RegisterBean;
+import com.FitnessFlow.Bean.RegisterBean;
 
 
 /**
@@ -32,7 +32,7 @@ public class Login extends HttpServlet {
 		RequestDispatcher dispatcher = null;
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/notetaker","root","Nitinary@915");
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/fitnessflow","root","Nitinary@915");
 			PreparedStatement pst = con.prepareStatement("select * from users where uemail = ? and upwd = ?");
 			pst.setString(1, uemail);
 			pst.setString(2, upwd);

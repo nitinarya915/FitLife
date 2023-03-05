@@ -1,4 +1,4 @@
-package com.FitLife.Bean;
+package com.FitnessFlow.Bean;
 
 public class RegisterBean {
 

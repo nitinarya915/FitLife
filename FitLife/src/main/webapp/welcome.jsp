@@ -1,10 +1,28 @@
-  <%
-      if(session.getAttribute("name")==null){
-        response.sendRedirect("Login.jsp");
-      }    
-  %>  
+
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
     <%@ include file="header.jsp"%>
-  <body>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<%
+    response.setHeader("cache-control", "no-cache");
+    response.setHeader("cache-control", "no-store");
+    response.setHeader("Pragma", "no-cache");
+    response.setDateHeader("Expire", 0);
+
+    String email = (String)session.getAttribute("email");
+    if(email==null){
+     out.println(email);
+        response.sendRedirect("http://localhost:8088/FitnessFlow/logout.jsp");
+    }
+    %>
+    <h3>Login Successfully Welcome <%out.println(email); %></h3>
+    
     <h2 style="padding: 10px;">Java Web Application</h2>
        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
@@ -27,6 +45,11 @@
               <span class="sr-only">Next</span>
             </a>
           </div>
-  </body>
-    <%@ include file="footer.jsp"%>
+
+    <a href="logout.jsp">logout</a>
+
+</body>
+<%@ include file="footer.jsp"%>
 </html>
+
+

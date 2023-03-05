@@ -1,4 +1,4 @@
-package com.FitLife.Model;
+package com.FitnessFlow.Model;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -11,7 +11,7 @@ public class MyDb {
 		
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/notetaker","root","Nitinary@915");
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/fitnessflow","root","Nitinary@915");
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

@@ -2,10 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com</groupId>
-  <artifactId>FitLife</artifactId>
+  <artifactId>FitnessFlow</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
-  <name>FitLife Maven Webapp</name>
+  <name>FitnessFlow Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
 	  <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
@@ -38,6 +38,6 @@
             <version>3.3.1</version>
         </plugin>
     </plugins>
-    <finalName>FitLife</finalName>
+    <finalName>FitnessFlow</finalName>
   </build>
 </project>

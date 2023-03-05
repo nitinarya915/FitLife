@@ -7,7 +7,7 @@
 <meta charset="ISO-8859-1">
 <title>About</title>
 <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
-<link rel="stylesheet" href="http://localhost:8088/FitLife/css/about.css">
+<link rel="stylesheet" href="http://localhost:8088/FitnessFlow/css/about.css">
 </head>
 <body>
     
@@ -35,7 +35,7 @@
                 </div>
             </div>
             <div class="image-section">
-            <img src="/FitLife/images/about.jpg">    
+            <img src="/FitnessFlow/images/about.jpg">    
             </div>
         </div>
     </div>

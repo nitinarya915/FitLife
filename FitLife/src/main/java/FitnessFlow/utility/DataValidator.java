@@ -1,4 +1,4 @@
-package FitLife.utility;
+package FitnessFlow.utility;
 
 public class DataValidator {
 	public static boolean isName(String val) {
